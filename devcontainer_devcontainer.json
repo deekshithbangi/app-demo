@@ -1,0 +1,18 @@
+{
+  "name": "Flutter WhatsApp Gallery",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "forwardPorts": [5025],
+  "postCreateCommand": "flutter --version"
+}
